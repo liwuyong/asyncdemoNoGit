@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: tests
+  freemarker:
+    suffix: .ftl # \u8BBE\u7F6E\u6A21\u677F\u540E\u7F00\u540D
+    content-type: text/html  # \u8BBE\u7F6E\u6587\u6863\u7C7B\u578B
+    charset: UTF-8 # \u8BBE\u7F6E\u9875\u9762\u7F16\u7801\u683C\u5F0F
+    cache: false # \u8BBE\u7F6E\u9875\u9762\u7F13\u5B58
+    template-loader-path: classpath:/templates # \u8BBE\u7F6Eftl\u6587\u4EF6\u8DEF\u5F84
+    static-path-pattern: classpath:/static  # \u8BBE\u7F6E\u9759\u6001\u6587\u4EF6\u8DEF\u5F84\uFF0Cjs,css\u7B49
